@@ -15,7 +15,7 @@ int main()
  printf("2.sayiyi girin: ");
  scanf("%d",&sayi2);
    
- for(i = (sayi1*sayi2) ; i > 0  ; i--)
+ for(i = (sayi1*sayi2) ; i > 0 ; i--)
  {
    if(i % sayi1 == 0 && i % sayi2 == 0)   
    {  
